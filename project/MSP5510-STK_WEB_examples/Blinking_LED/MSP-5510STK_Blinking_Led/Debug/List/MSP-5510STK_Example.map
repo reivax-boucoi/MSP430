@@ -1,0 +1,514 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V5.2.1.11                                          #
+#                                                                              #
+#           Link time     =  04/Apr/2012  09:36:14                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Bl #
+#                            inking_LED\MSP-5510STK_Example\Debug\List\MSP-551 #
+#                            0STK_Example.map                                  #
+#           Output file 1 =  E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Bl #
+#                            inking_LED\MSP-5510STK_Example\Debug\Exe\MSP-5510 #
+#                            STK_Example.txt                                   #
+#                            Format: msp430_txt                                #
+#           Output file 2 =  E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Bl #
+#                            inking_LED\MSP-5510STK_Example\Debug\Exe\MSP-5510 #
+#                            STK_Blinking_LED.txt                              #
+#                            Format: msp430_txt                                #
+#           Command line  =  -P(CONST)MYDRIVE=0xD000-0xF000                    #
+#                            E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Bl #
+#                            inking_LED\MSP-5510STK_Example\Debug\Obj\main.r43 #
+#                            -o                                                #
+#                            E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Bl #
+#                            inking_LED\MSP-5510STK_Example\Debug\Exe\MSP-5510 #
+#                            STK_Example.txt                                   #
+#                            -Fmsp430_txt -l                                   #
+#                            E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Bl #
+#                            inking_LED\MSP-5510STK_Example\Debug\List\MSP-551 #
+#                            0STK_Example.map                                  #
+#                            -xms                                              #
+#                            "-IF:\Program Files\IAR Systems\IAR_MSP540\430\LI #
+#                            B\"                                               #
+#                            -f                                                #
+#                            "F:\Program Files\IAR Systems\IAR_MSP540\430\CONF #
+#                            IG\lnk430F5510.xcl"                               #
+#                            (-cmsp430 -QCODE_I=CODE_ID                        #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I,DATA16 #
+#                            _HEAP+_DATA16_HEAP_SIZE=2400-33FF                 #
+#                            -Z(DATA)CODE_I -Z(DATA)CSTACK+_STACK_SIZE#        #
+#                            -Z(CONST)INFO=1800-19FF                           #
+#                            -Z(CONST)INFOA=1980-19FF                          #
+#                            -Z(CONST)INFOB=1900-197F                          #
+#                            -Z(CONST)INFOC=1880-18FF                          #
+#                            -Z(CONST)INFOD=1800-187F                          #
+#                            -Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHEC #
+#                            KSUM=8000-FF7F                                    #
+#                            -Z(CODE)CSTART,ISR_CODE,CODE_ID=8000-FF7F         #
+#                            -P(CODE)CODE=8000-FF7F -Z(CODE)INTVEC=FF80-FFFF   #
+#                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
+#                            "F:\Program Files\IAR Systems\IAR_MSP540\430\conf #
+#                            ig\multiplier32_loc2.xcl"                         #
+#                            (-e?Mul8HwLoc2=?Mul8 -e?Mul16HwLoc2=?Mul16        #
+#                            -e?Mul16to32uHwLoc2=?Mul16to32u                   #
+#                            -e?Mul16to32sHwLoc2=?Mul16to32s                   #
+#                            -e?Mul32Hw32Loc2=?Mul32                           #
+#                            -e?Mul64Hw32Loc2=_Mul64i                          #
+#                            -e?Mul32u32uto64iHw32Loc2=_Mul32u32uto64i         #
+#                            -e?Mul32fHwLoc2=_Mul32f                           #
+#                            -e_Mul64fHwPtrLoc2=_Mul64fPtr)                    #
+#                            -D_STACK_SIZE=190                                 #
+#                            "F:\Program Files\IAR Systems\IAR_MSP540\430\LIB\ #
+#                            DLIB\dl430xsfn.r43"                               #
+#                            -e_PrintfFull=_Printf -e_ScanfFull=_Scanf         #
+#                            -D_DATA16_HEAP_SIZE=A0                            #
+#                            -Omsp430_txt=E:\Gogo\MSP5510-STK\Demo_Examples\WE #
+#                            B_examples\Blinking_LED\MSP-5510STK_Example\Debug #
+#                            \Exe\MSP-5510STK_Blinking_LED.txt                 #
+#                            -s __program_start -D_DATA20_HEAP_SIZE=50         #
+#                                                                              #
+#                           Copyright (C) 1987-2011 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           8002  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __core                     = 430X
+  __data_model               = small
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 32
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _DATA20_HEAP_SIZE       0050 
+           _DATA16_HEAP_SIZE       00A0 
+           _STACK_SIZE             0190 
+    *************************************************************************
+
+  FILE NAME : E:\Gogo\MSP5510-STK\Demo_Examples\WEB_examples\Blinking_LED\MSP-5510STK_Example\Debug\Obj\main.r43
+  PROGRAM MODULE, NAME : main
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0200 - 0201 (0x2 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAIN_L               0200 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAIN                    0200 
+           PAIN_H                  0201 
+           PAIN_L                  0200 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0202 - 0203 (0x2 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAOUT_L              0202 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAOUT                   0202 
+           PAOUT_H                 0203 
+           PAOUT_L                 0202 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0204 - 0205 (0x2 bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PADIR_L              0204 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PADIR                   0204 
+           PADIR_H                 0205 
+           PADIR_L                 0204 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0206 - 0207 (0x2 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAREN_L              0206 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAREN                   0206 
+           PAREN_H                 0207 
+           PAREN_L                 0206 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0222 - 0223 (0x2 bytes), align: 0
+  Segment part 5. ROOT.       Intra module refs:   Init_Ports
+                                                   TIMER1_A0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBOUT_L              0222 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBOUT                   0222 
+           PBOUT_H                 0223 
+           PBOUT_L                 0222 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0224 - 0225 (0x2 bytes), align: 0
+  Segment part 6. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBDIR_L              0224 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBDIR                   0224 
+           PBDIR_H                 0225 
+           PBDIR_L                 0224 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0242 - 0243 (0x2 bytes), align: 0
+  Segment part 7. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCOUT_L              0242 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCOUT                   0242 
+           PCOUT_H                 0243 
+           PCOUT_L                 0242 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0244 - 0245 (0x2 bytes), align: 0
+  Segment part 8. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCDIR_L              0244 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCDIR                   0244 
+           PCDIR_H                 0245 
+           PCDIR_L                 0244 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0248 - 0249 (0x2 bytes), align: 0
+  Segment part 9. ROOT.       Intra module refs:   Init_Ports
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCDS_L               0248 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCDS                    0248 
+           PCDS_H                  0249 
+           PCDS_L                  0248 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0380 - 0381 (0x2 bytes), align: 0
+  Segment part 10. ROOT.      Intra module refs:   Init_Timer1
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA1CTL                  0380 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0382 - 0383 (0x2 bytes), align: 0
+  Segment part 11. ROOT.      Intra module refs:   Init_Timer1
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA1CCTL0                0382 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0392 - 0393 (0x2 bytes), align: 0
+  Segment part 12. ROOT.      Intra module refs:   Init_Timer1
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA1CCR0                 0392 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 015C - 015D (0x2 bytes), align: 0
+  Segment part 13. ROOT.      Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_WDTCTL_L             015C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           WDTCTL                  015C 
+           WDTCTL_H                015D 
+           WDTCTL_L                015C 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2400 - 2400 (0x1 bytes), align: 0
+  Segment part 16.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           but1_flag               2400 
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2401 - 2401 (0x1 bytes), align: 0
+  Segment part 18.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           but2_flag               2401 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8026 - 8085 (0x60 bytes), align: 1
+  Segment part 23.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    8026            Segment part 22 (?cstart)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 8086 - 80C1 (0x3c bytes), align: 1
+  Segment part 22.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Init_Ports              8086 
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 80C2 - 80D5 (0x14 bytes), align: 1
+  Segment part 21.            Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Init_Timer1             80C2 
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 801E - 8025 (0x8 bytes), align: 1
+  Segment part 20.            Intra module refs:   TIMER1_A0_ISR::??INTVEC 98
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER1_A0_ISR           801E 
+               interrupt function
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFE3 (0x64 bytes), align: 1
+  Segment part 14. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TIMER1_A0_ISR::??INTVEC 98
+                                   FFE2 
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 8000 - 8000 (0x1 bytes), align: 0
+  Segment part 17.            Intra module refs:   but1_flag
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 8001 - 8001 (0x1 bytes), align: 0
+  Segment part 19.            Intra module refs:   but2_flag
+
+    *************************************************************************
+
+  FILE NAME : F:\Program Files\IAR Systems\IAR_MSP540\430\LIB\DLIB\dl430xsfn.r43
+  LIBRARY MODULE, NAME : ?_exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 80F4, align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   80F4            exit (?exit)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 80F4 - 80F7 (0x4 bytes), align: 1
+  Segment part 6.             Intra module refs:   _exit
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?cstart
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTACK
+  Relative segment, address: 3270, align: 1
+  Segment part 1.
+    -------------------------------------------------------------------------
+DATA16_I
+  Relative segment, address: 2400, align: 1
+  Segment part 3.
+    -------------------------------------------------------------------------
+DATA16_ID
+  Relative segment, address: 8000, align: 1
+  Segment part 4.
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 8002 - 8005 (0x4 bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         8002            ?reset_vector (?reset_vector)
+                                                   Absolute parts (?ABS_ENTRY_MOD)
+           ?cstart_begin           8002 
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 8006 - 8015 (0x10 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_copy       8006            but1_flag (main)
+                                                   but2_flag (main)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 8016 - 801D (0x8 bytes), align: 1
+  Segment part 22.            Intra module refs:   Segment part 12
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_call_main       8016 
+           ?cstart_end             801E 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?reset_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+RESET
+  Relative segment, address: FFFE - FFFF (0x2 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?reset_vector           FFFE            Segment part 12 (?cstart)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 80E8 - 80EB (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    80E8            Segment part 22 (?cstart)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 80D6 - 80E7 (0x12 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  80D6            __data16_memcpy (?memzero)
+               CSTACK = 00000000 ( 00000004 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memzero
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 80EC - 80EF (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data16_memcpy         80EC            ?cstart_init_copy (?cstart)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 80F0 - 80F3 (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  80F0            Segment part 6 (?_exit)
+                                                   _exit (?_exit)
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              015C - 015D               2   rel    0
+                                       0200 - 0207               8 
+                                       0222 - 0225               4 
+                                       0242 - 0245               4 
+                                       0248 - 0249               2 
+                                       0380 - 0383               4 
+                                       0392 - 0393               2 
+DATA16_I                               2400 - 2401               2   rel    1
+CSTACK                                 3270 - 33FF             190   rel    1
+DATA16_C                                  8000                       dse    0
+DATA16_ID                              8000 - 8001               2   rel    1
+CSTART                                 8002 - 801D              1C   rel    1
+ISR_CODE                               801E - 8025               8   rel    1
+<CODE> 1                               8026 - 80F7              D2   rel    1
+INTVEC                                 FF80 - FFE3              64   com    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 348 bytes of CODE  memory
+ 402 bytes of DATA  memory (+ 26 absolute )
+   2 bytes of CONST memory
+
+Errors: none
+Warnings: none
+

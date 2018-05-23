@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>915</ColumnWidth1>
+        <ColumnWidth2>244</ColumnWidth2>
+        <ColumnWidth3>61</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>124</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    <Register><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Register><WATCH_1><expressions><item>ADC10MEM0</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths></WATCH_1></Static>
+    <Windows>
+      
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-549-3498</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-26-3508</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-11298-3501</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>MSP-5510STK_Example</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-32498-17516</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-17465-28851</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\lcd.c</Filename><XPos>0</XPos><YPos>323</YPos><SelStart>14357</SelStart><SelEnd>14357</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\lcd.h</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>1736</SelStart><SelEnd>1736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\FatFs\HAL_SDCard.c</Filename><XPos>0</XPos><YPos>90</YPos><SelStart>4537</SelStart><SelEnd>4537</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\FatFs\mmc.c</Filename><XPos>0</XPos><YPos>190</YPos><SelStart>8430</SelStart><SelEnd>8430</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\main.c</Filename><XPos>0</XPos><YPos>106</YPos><SelStart>5048</SelStart><SelEnd>5048</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\adc.c</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>2051</SelStart><SelEnd>2114</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\Program Files\IAR Systems\IAR_MSP540\430\inc\msp430f5510.h</Filename><XPos>0</XPos><YPos>335</YPos><SelStart>14796</SelStart><SelEnd>14806</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\ext_test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>722</SelStart><SelEnd>722</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\USB_API\USB_Common\usb.c</Filename><XPos>0</XPos><YPos>658</YPos><SelStart>29348</SelStart><SelEnd>29348</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01337680><key>iaridepm.enu1</key></Toolbar-01337680></Sizes></Row0><Row1><Sizes><Toolbar-09336120><key>debuggergui.enu1</key></Toolbar-09336120></Sizes></Row1><Row2><Sizes><Toolbar-0b58c580><key>430fet1</key></Toolbar-0b58c580></Sizes></Row2></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>628</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>217865</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>686275</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd6><Rect><Top>-2</Top><Left>-2</Left><Bottom>628</Bottom><Right>286</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>217865</sizeHorzCY><sizeVertCX>225000</sizeVertCX><sizeVertCY>686275</sizeVertCY></Rect></Wnd6></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>-2</Top><Left>284</Left><Bottom>628</Bottom><Right>484</Right><x>284</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>217865</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>686275</sizeVertCY></Rect></Wnd7></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>217865</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>217865</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

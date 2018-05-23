@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>128</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        <PreferedWindows>
+          
+          
+          
+          
+        <Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+      <Find-in-Files>
+        
+        
+        
+      <ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files>
+      <Register/>
+    <WATCH_1><expressions><item>Test_result_counter</item><item>bCDC_DataReceived_event</item><item>str</item><item>str_bat</item><item>P1IN</item><item>P2IN</item><item>P4IN</item><item>P5IN</item><item>P6IN</item><item>start_up_flag</item><item>k</item><item>lock_flag</item><item>EXT_flag</item><item></item></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>226</item><item>150</item><item>100</item><item>168</item></col-widths></WATCH_1><WATCH_2><expressions><item>aray</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>106</item></col-widths></WATCH_2></Static>
+    <Windows>
+      
+      
+      
+    <Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27741-16065</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-27218-16075</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-21593-16999</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-26208-32499</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab><Tab><Identity>TabID-13375-12998</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>4</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5721-16068</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>CHM1_Example</ExpandedNode><ExpandedNode>CHM1_Example/USB_API</ExpandedNode><ExpandedNode>CHM1_Example/USB_config</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-13937-22266</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab>
+            <Identity>TabID-5998-17478</Identity>
+            <TabName>Register</TabName>
+            <Factory>Register</Factory>
+            <Session>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            <REG1>0</REG1><REG2>0</REG2><Group>0</Group><States>11</States><State0>P1DIR</State0><State1>P1OUT</State1><State2>P1SEL</State2><State3>P5SEL</State3><State4>SR</State4><State5>UCSCTL3</State5><State6>UCSCTL4</State6><State7>UCSCTL5</State7><State8>UCSCTL6</State8><State9>UCSCTL7</State9><State10>UCSCTL8</State10></Session>
+          </Tab><Tab><Identity>TabID-24014-22323</Identity><TabName>Watch 2</TabName><Factory>WATCH_2</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-28987-14838</Identity><TabName>Register</TabName><Factory>Register</Factory><Session><State10>TA1CTL</State10><State8>SFRIFG1</State8><State9>TA1CTL</State9><State7>TA1CTL</State7><REG1>0</REG1><REG2>0</REG2><Group>0</Group><States>7</States><State0>ADC10CTL0</State0><State1>ADC10CTL1</State1><State2>ADC10MCTL0</State2><State3>P6DIR</State3><State4>P6OUT</State4><State5>SFRIFG1</State5><State6>TA1CTL</State6></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\adc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>805</SelStart><SelEnd>819</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>899</SelStart><SelEnd>899</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_Common\dma.c</Filename><XPos>0</XPos><YPos>105</YPos><SelStart>5749</SelStart><SelEnd>5749</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\Program Files\IAR Systems\IAR_MSP540\430\inc\dlib\c\DLib_Defaults.h</Filename><XPos>0</XPos><YPos>55</YPos><SelStart>2315</SelStart><SelEnd>2315</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\lcd.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>1434</SelStart><SelEnd>1434</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\ext_test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>998</SelStart><SelEnd>998</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\F5xx_F6xx_Core_Lib\HAL_UCS.c</Filename><XPos>0</XPos><YPos>190</YPos><SelStart>7227</SelStart><SelEnd>7246</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\usbEventHandling.c</Filename><XPos>0</XPos><YPos>118</YPos><SelStart>5015</SelStart><SelEnd>5015</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_Common\usb.c</Filename><XPos>0</XPos><YPos>265</YPos><SelStart>29258</SelStart><SelEnd>29258</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_CDC_API\UsbCdc.c</Filename><XPos>0</XPos><YPos>147</YPos><SelStart>7825</SelStart><SelEnd>7825</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\usbConstructs.c</Filename><XPos>0</XPos><YPos>218</YPos><SelStart>10458</SelStart><SelEnd>10465</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_config\UsbIsr.c</Filename><XPos>0</XPos><YPos>267</YPos><SelStart>3471</SelStart><SelEnd>3471</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\Debug\List\CHM1_Example.map</Filename><XPos>0</XPos><YPos>5099</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_MSC_API\UsbMscScsi.c</Filename><XPos>0</XPos><YPos>1100</YPos><SelStart>43736</SelStart><SelEnd>43736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\main.c</Filename><XPos>0</XPos><YPos>337</YPos><SelStart>17510</SelStart><SelEnd>17510</SelEnd></Tab><ActiveTab>14</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\adc.c</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>1156</SelStart><SelEnd>1156</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\Program Files\IAR Systems\IAR_MSP540\430\inc\msp430f5510.h</Filename><XPos>0</XPos><YPos>1446</YPos><SelStart>90900</SelStart><SelEnd>90900</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\ext_test.c</Filename><XPos>0</XPos><YPos>421</YPos><SelStart>11798</SelStart><SelEnd>11798</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01337668><key>iaridepm.enu1</key></Toolbar-01337668></Sizes></Row0><Row1><Sizes><Toolbar-0c7df008><key>debuggergui.enu1</key></Toolbar-0c7df008></Sizes></Row1><Row2><Sizes><Toolbar-0b8bd008><key>430fet1</key></Toolbar-0b8bd008></Sizes></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6></Top><Left><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>576</Bottom><Right>202</Right><x>-2</x><y>-2</y><xscreen>269</xscreen><yscreen>252</yscreen><sizeHorzCX>210156</sizeHorzCX><sizeHorzCY>274510</sizeHorzCY><sizeVertCX>159375</sizeVertCX><sizeVertCY>629630</sizeVertCY></Rect></Wnd5></Sizes></Row0></Left><Right><Row0><Sizes><Wnd7><Rect><Top>-2</Top><Left>-2</Left><Bottom>252</Bottom><Right>394</Right><x>-2</x><y>-2</y><xscreen>269</xscreen><yscreen>252</yscreen><sizeHorzCX>210156</sizeHorzCX><sizeHorzCY>274510</sizeHorzCY><sizeVertCX>309375</sizeVertCX><sizeVertCY>276688</sizeVertCY></Rect></Wnd7><Wnd6><Rect><Top>0</Top><Left>0</Left><Bottom>-1</Bottom><Right>-1</Right><x>-2</x><y>250</y><xscreen>269</xscreen><yscreen>252</yscreen><sizeHorzCX>210156</sizeHorzCX><sizeHorzCY>274510</sizeHorzCY><sizeVertCX>309375</sizeVertCX><sizeVertCY>355120</sizeVertCY></Rect></Wnd6></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>250</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>252</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>274510</sizeHorzCY><sizeVertCX>210156</sizeVertCX><sizeVertCY>274510</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>MSP5510-STK/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>124</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3471-7158</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>MSP5510-STK</ExpandedNode><ExpandedNode>MSP5510-STK/ext_test.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-24445-7174</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\test\main.c</Filename><XPos>0</XPos><YPos>103</YPos><SelStart>4787</SelStart><SelEnd>4787</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\test\ext_test.c</Filename><XPos>0</XPos><YPos>49</YPos><SelStart>848</SelStart><SelEnd>848</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\test\ext_test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>686</SelStart><SelEnd>686</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\test\F5xx_F6xx_Core_Lib\HAL_PMM.c</Filename><XPos>0</XPos><YPos>75</YPos><SelStart>3729</SelStart><SelEnd>3729</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\test\FatFs\HAL_SDCard.c</Filename><XPos>0</XPos><YPos>92</YPos><SelStart>4368</SelStart><SelEnd>4368</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01337638><key>iaridepm.enu1</key></Toolbar-01337638></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>676</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>217865</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>738562</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>217865</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>217865</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

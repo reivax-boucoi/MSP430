@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>MSP-5510STK_Example/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>286</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <TerminalIO/>
+    <Find-in-Files><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-7410-13748</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>MSP-5510STK_Example</ExpandedNode><ExpandedNode>MSP-5510STK_Example/ext_test.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-25770-13813</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6300-3390</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-14181-26251</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\lcd.c</Filename><XPos>0</XPos><YPos>323</YPos><SelStart>14357</SelStart><SelEnd>14357</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\lcd.h</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>1736</SelStart><SelEnd>1736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\FatFs\HAL_SDCard.c</Filename><XPos>0</XPos><YPos>90</YPos><SelStart>4537</SelStart><SelEnd>4537</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\FatFs\mmc.c</Filename><XPos>0</XPos><YPos>190</YPos><SelStart>8430</SelStart><SelEnd>8430</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\main.c</Filename><XPos>0</XPos><YPos>106</YPos><SelStart>5048</SelStart><SelEnd>5048</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\adc.c</Filename><XPos>0</XPos><YPos>16</YPos><SelStart>2051</SelStart><SelEnd>2114</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\Program Files\IAR Systems\IAR_MSP540\430\inc\msp430f5510.h</Filename><XPos>0</XPos><YPos>335</YPos><SelStart>14796</SelStart><SelEnd>14806</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\ext_test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>722</SelStart><SelEnd>722</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MSP-5510STK_Example\USB_API\USB_Common\usb.c</Filename><XPos>0</XPos><YPos>658</YPos><SelStart>29348</SelStart><SelEnd>29348</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01337680><key>iaridepm.enu1</key></Toolbar-01337680></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>468</Bottom><Right>360</Right><x>-2</x><y>-2</y><xscreen>362</xscreen><yscreen>408</yscreen><sizeHorzCX>282813</sizeHorzCX><sizeHorzCY>444444</sizeHorzCY><sizeVertCX>282813</sizeVertCX><sizeVertCY>511983</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>406</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>408</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>444444</sizeHorzCY><sizeVertCX>282813</sizeVertCX><sizeVertCY>444444</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
