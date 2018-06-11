@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>CHM1_Example/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>212</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <TerminalIO/>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+    <Find-in-Files><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31552-25391</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>CHM1_Example</ExpandedNode><ExpandedNode>CHM1_Example/Output</ExpandedNode><ExpandedNode>CHM1_Example/adc.c</ExpandedNode><ExpandedNode>CHM1_Example/lcd.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-6919-25443</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-8622-16983</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-9749-26317</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\adc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>805</SelStart><SelEnd>819</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\lcd.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>899</SelStart><SelEnd>899</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_Common\dma.c</Filename><XPos>0</XPos><YPos>105</YPos><SelStart>5749</SelStart><SelEnd>5749</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\Program Files\IAR Systems\IAR_MSP540\430\inc\dlib\c\DLib_Defaults.h</Filename><XPos>0</XPos><YPos>55</YPos><SelStart>2315</SelStart><SelEnd>2315</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\lcd.c</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>1434</SelStart><SelEnd>1434</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\ext_test.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>998</SelStart><SelEnd>998</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\F5xx_F6xx_Core_Lib\HAL_UCS.c</Filename><XPos>0</XPos><YPos>190</YPos><SelStart>7227</SelStart><SelEnd>7246</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\usbEventHandling.c</Filename><XPos>0</XPos><YPos>118</YPos><SelStart>5015</SelStart><SelEnd>5015</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_Common\usb.c</Filename><XPos>0</XPos><YPos>265</YPos><SelStart>29258</SelStart><SelEnd>29258</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_CDC_API\UsbCdc.c</Filename><XPos>0</XPos><YPos>147</YPos><SelStart>7825</SelStart><SelEnd>7825</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\usbConstructs.c</Filename><XPos>0</XPos><YPos>218</YPos><SelStart>10458</SelStart><SelEnd>10465</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_config\UsbIsr.c</Filename><XPos>0</XPos><YPos>267</YPos><SelStart>3471</SelStart><SelEnd>3471</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\Debug\List\CHM1_Example.map</Filename><XPos>0</XPos><YPos>5099</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\USB_API\USB_MSC_API\UsbMscScsi.c</Filename><XPos>0</XPos><YPos>1100</YPos><SelStart>43736</SelStart><SelEnd>43736</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\main.c</Filename><XPos>0</XPos><YPos>337</YPos><SelStart>17510</SelStart><SelEnd>17510</SelEnd></Tab><ActiveTab>14</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\adc.c</Filename><XPos>0</XPos><YPos>10</YPos><SelStart>1156</SelStart><SelEnd>1156</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>F:\Program Files\IAR Systems\IAR_MSP540\430\inc\msp430f5510.h</Filename><XPos>0</XPos><YPos>1446</YPos><SelStart>90900</SelStart><SelEnd>90900</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\CHM1_Example\ext_test.c</Filename><XPos>0</XPos><YPos>421</YPos><SelStart>11798</SelStart><SelEnd>11798</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01337668><key>iaridepm.enu1</key></Toolbar-01337668></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>679</Bottom><Right>286</Right><x>-2</x><y>-2</y><xscreen>83</xscreen><yscreen>77</yscreen><sizeHorzCX>64844</sizeHorzCX><sizeHorzCY>83878</sizeHorzCY><sizeVertCX>225000</sizeVertCX><sizeVertCY>741830</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>195</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>197</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>214597</sizeHorzCY><sizeVertCX>64844</sizeVertCX><sizeVertCY>83878</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -52,7 +52,7 @@ void main (void)
         if (BUT1 == PRESSED && but1_flag == RELEASED)   //Check if BUT1 is pressed
         {          
           but1_flag = PRESSED;          
-          TA1CCR0 = 2000;
+          TA1CCR0 = 1000;
         }
         if (BUT1 == RELEASED && but1_flag == PRESSED)  //Check if BUT1 is released
         {
@@ -62,7 +62,7 @@ void main (void)
         if (BUT2 == PRESSED && but2_flag == RELEASED)  //Check if BUT2 is pressed
         {          
           but2_flag = PRESSED;                             
-          TA1CCR0 = 6000;
+          TA1CCR0 = 60000;
         }
         if (BUT2 == RELEASED && but2_flag == PRESSED)  //Check if BUT2 is released
         {
