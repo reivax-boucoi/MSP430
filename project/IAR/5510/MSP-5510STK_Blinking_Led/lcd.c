@@ -1,40 +1,12 @@
-/**********************************************************************************/
-/*Test program for:						 	          */
-/*    Board: MSP430F5510-STK							  */
-/*    Manufacture: OLIMEX                                                   	  */
-/*    COPYRIGHT (C) 2012							  */
-/*    Designed by:  Georgi Todorov                                                */
-/*    Module Name    :  GDSC-0801WP-01-MENT                                       */
-/*    File   Name    :  lcd.c                                                     */
-/*    Revision       :  Rev.A                                                     */
-/*    Date           :  20.01.2012					          */
-/**********************************************************************************/
-
 #include "lcd.h"
 #include <msp430f5510.h>
 
 volatile unsigned char	flag_register = 0x00;
 
-/**********************************************************************************/
-/*  Function name: Delay                                                          */
-/*  	Parameters                                                                */
-/*          Input   :  delay_counter	                                          */
-/*          Output  :  No	                                                  */
-/*	Action: Simple delay							  */
-/**********************************************************************************/
 void Delay(volatile unsigned long delay_counter){
 	while(delay_counter){delay_counter--;}
 }
-
-/**********************************************************************************/
-/*  Function name: LCD_SEND_CHR                                                   */
-/*  	Parameters                                                                */
-/*          Input   :  character                                                  */
-/*          Output  :  No	                                                  */
-/*	Action: Send one data byte to LCD					  */
-/**********************************************************************************/
-void LCD_SEND_CHR(unsigned char character)
-{
+void LCD_SEND_CHR(unsigned char character){
 	unsigned char data = 0;
     unsigned char temp = 0;
     volatile unsigned char LCD_write;
@@ -65,16 +37,7 @@ void LCD_SEND_CHR(unsigned char character)
     Delay(500);
 }
 
-
-/**********************************************************************************/
-/*  Function name: LCD_SEND_CMD                                                   */
-/*  	Parameters                                                                */
-/*          Input   :  command                                                    */
-/*          Output  :  No	                                                  */
-/*	Action: Send one command byte to LCD					  */
-/**********************************************************************************/
-void LCD_SEND_CMD(unsigned char command)
-{
+void LCD_SEND_CMD(unsigned char command){
     unsigned char data = 0;
     unsigned char temp = 0;
     volatile unsigned char LCD_write;
@@ -103,21 +66,10 @@ void LCD_SEND_CMD(unsigned char command)
     EN_ON;				//toggle E for LCD
     Delay(5);				//5us
     EN_OFF;
-//    Delay(10000);
     Delay(100);
 }
 
-
-/**********************************************************************************/
-/*  Function name: LCD_Send_Symbol                                                */
-/*  	Parameters                                                                */
-/*          Input   :  row, position, *symbol                                     */
-/*          Output  :  No 	                                                  */
-/*	Action: Send one symbol to LCD. 					  */
-/*			Place of symbol is defined by selected row and position.  */
-/**********************************************************************************/
-void LCD_Send_Symbol(unsigned char row, unsigned char position, unsigned char *symbol)
-{
+void LCD_Send_Symbol(unsigned char row, unsigned char position, unsigned char *symbol){
     if(row>2)	return;
     //Set row
     if(row==1)	LCD_SEND_CMD(0x80);	// Set DDRAM address 0x00	
@@ -137,15 +89,7 @@ void LCD_Send_Symbol(unsigned char row, unsigned char position, unsigned char *s
 }
 
 
-/**********************************************************************************/
-/*  Function name: LCD_Send_STR                                                   */
-/*  	Parameters                                                                */
-/*          Input   :  row, *dataPtr                                      	  */
-/*          Output  :  No		                                          */
-/*	Action: Send string to LCD. Sring size is limited to 8 symbols!		  */
-/**********************************************************************************/
-void LCD_Send_STR(unsigned char row, char *dataPtr)
-{
+void LCD_Send_STR(unsigned char row, char *dataPtr){
 	unsigned char number_sent_symbols = 0;
 
 	if(row>2)	return;
@@ -165,18 +109,7 @@ void LCD_Send_STR(unsigned char row, char *dataPtr)
 }
 
 
-/**********************************************************************************************/
-/*  Function name: LCD_Send_Long_STR                                                          */
-/*  	Parameters                                                                            */
-/*          Input   :  row, shift_rate, *dataPtr                           	              */
-/*          Output  :  No	                                                              */
-/*	Action: Send long string to LCD. String size is not limited!		              */
-/*			At begin first 8 symbols of the string are visualized at LCD.	      */
-/*			The other symbols are visualized like shift string to the right with  */
-/*			speed dependent on "shift_rate" variable value.	                      */
-/**********************************************************************************************/
-void LCD_Send_Long_STR(unsigned char row, unsigned long shift_rate, char *dataPtr)
-{
+void LCD_Send_Long_STR(unsigned char row, unsigned long shift_rate, char *dataPtr){
 	unsigned char right_shifts = 7;
 	unsigned char shift_counter = 0;
 	unsigned char LCD_last_8_symbols_backup[8];
@@ -245,28 +178,11 @@ void LCD_Send_Long_STR(unsigned char row, unsigned long shift_rate, char *dataPt
 }
 
 
-/**********************************************************************************/
-/*  Function name: LCD_Clear                                                      */
-/*  	Parameters                                                                */
-/*          Input   :  No       		                               	  */
-/*          Output  :  No	                                                  */
-/*	Action: Clear entire display						  */
-/**********************************************************************************/
-void LCD_Clear(void)
-{
+void LCD_Clear(void){
 	LCD_SEND_CMD(0x01);	// ClearDisplay
 }
 
-
-/**********************************************************************************/
-/*  Function name: LCD_Check_Busy_Flag                                            */
-/*  	Parameters                                                                */
-/*          Input   :  No       		                               	  */
-/*          Output  :  No	                                                  */
-/*	Action: Check is the LCD driver in busy state. Not used with this LCD!!!  */
-/**********************************************************************************/
-void LCD_Check_Busy_Flag(void)
-{
+void LCD_Check_Busy_Flag(void){
 	unsigned char LCD_read = 0x02;
 	unsigned char busy_flag = 0x02;
   	unsigned char AC_address;
@@ -291,18 +207,7 @@ void LCD_Check_Busy_Flag(void)
 	}      
 }
 
-
-/**********************************************************************************/
-/*  Function name: LCD_Read_Symbol                                                */
-/*  	Parameters                                                                */
-/*          Input   :  row, position     		                          */
-/*          Output  :  No                                                   	  */
-/*	Action: Read character from LCD's DDRAM. 	  			  */
-/*			DDRAM address is defined with "row" and "position" 	  */
-/*			This command is not support of this LCD driver!!! 	  */
-/**********************************************************************************/
-void LCD_Read_Symbol(unsigned char row, unsigned char position)
-{
+void LCD_Read_Symbol(unsigned char row, unsigned char position){
     volatile unsigned char LCD_read;
     volatile unsigned char Read_data;
    
@@ -341,16 +246,7 @@ void LCD_Read_Symbol(unsigned char row, unsigned char position)
     Read_data = Read_data | LCD_read;            // Check Data
 }
 
-
-/**********************************************************************************/
-/*  Function name: LCD_Init		                                          */
-/*  	Parameters                                                                */
-/*          Input   :  No			     		                  */
-/*          Output  :  No                                                   	  */
-/*	Action: Initialize LCD driver. 	  					  */
-/**********************************************************************************/
-void LCD_Init(void)
-{
+void LCD_Init(void){
 //LCD pin CSB have to be in low state before initialization!
     unsigned char LCD_DATA_PORT_temp = 0;
     volatile unsigned char LCD_write;
@@ -408,12 +304,3 @@ void LCD_Init(void)
     LCD_SEND_CMD (0x06); //Entry mode set
     LCD_SEND_CMD (0x0C); //DISPLAY ON                   
 }
-
-
-
-
-
-
-
-
-
