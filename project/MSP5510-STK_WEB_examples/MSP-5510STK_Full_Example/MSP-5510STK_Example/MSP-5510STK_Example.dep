@@ -23,7 +23,7 @@
             <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_PMM.h</file>
             <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_FLASH.c</file>
             <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_FLASH.h</file>
-            <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_MACROS.h</file>
+            <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\hal_macros.h</file>
             <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_PMAP.c</file>
             <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_PMAP.h</file>
             <file>$PROJ_DIR$\F5xx_F6xx_Core_Lib\HAL_PMM.c</file>
@@ -301,10 +301,6 @@
             <name>$PROJ_DIR$\FatFs\ff.c</name>
             <outputs>
                 <tool>
-                    <name>ICC430</name>
-                    <file> 122</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 111</file>
                 </tool>
@@ -570,10 +566,6 @@
         <file>
             <name>$PROJ_DIR$\USB_API\USB_Common\usb.c</name>
             <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 112</file>
-                </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 101</file>

@@ -64,7 +64,7 @@ void Init_Timer1 (void);
 void Low_Power_Entering(void);
 
 //The number of bytes per block.  In FAT, this is 512
-const WORD BYTES_PER_BLOCK = 512;
+const WORD BYTES_PER_BLOCK = 64;
 
 volatile BYTE fS1ButtonEvent = 0;                                       //Flag indicating button S1 was pressed (that is, button S1
 //on a F552x FET target board)
