@@ -19,7 +19,7 @@
             <file>$TOOLKIT_DIR$\inc\in430.h</file>
             <file>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_LED.ulp</file>
             <file>$PROJ_DIR$\lcd.h</file>
-            <file>$PROJ_DIR$\Debug\List\MSP-5510STK_Blinking_Led.map</file>
+            <file>$PROJ_DIR$\Debug\List\MSP-5510STK_Blinking_LED.map</file>
             <file>$PROJ_DIR$\Debug\Obj\lcd.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\lcd.__cstat.et</file>
             <file>$TOOLKIT_DIR$\config\linker\lnk430f5510.xcl</file>
@@ -101,6 +101,10 @@
                 <tool>
                     <name>ICC430</name>
                     <file> 10 11 1 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11 13 10 1</file>
                 </tool>
             </inputs>
         </file>

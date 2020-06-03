@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <workspace>
-  <project>
-    <path>$WS_DIR$\MSP-5510STK_Blinking_LED\MSP-5510STK_Blinking_LED.ewp</path>
-  </project>
-  <batchBuild/>
+    <project>
+        <path>$WS_DIR$\MSP-5510STK_Blinking_LED\MSP-5510STK_Blinking_LED.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\MSP5510-STK_WEB_examples\MSP-5510STK_Full_Example\MSP-5510STK_Example\MSP-5510STK_Example.ewp</path>
+    </project>
+    <batchBuild />
 </workspace>
-
-
