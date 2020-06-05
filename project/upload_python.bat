@@ -1,0 +1,1 @@
+python -m msp430.bsl5.hid -e D:\Documents\MSP430\project\IAR\5510\MSP-5510STK_Blinking_Led\Debug\Exe\MSP-5510STK_Blinking_LED.txt -r
