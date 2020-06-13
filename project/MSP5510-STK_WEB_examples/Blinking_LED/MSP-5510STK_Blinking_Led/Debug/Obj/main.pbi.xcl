@@ -1,12 +1,12 @@
-"D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\main.c"
+"D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\main.c"
 -std=c99
 -ferror-limit=0
 -I
-D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED
+D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led
 -I
-D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED/USB_config
+D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led/USB_config
 -I
-D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED/F5xx_F6xx_Core_Lib
+D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led/F5xx_F6xx_Core_Lib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\430\inc\dlib
 -I
@@ -14,11 +14,11 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\430\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\430\inc\dlib\c
 -I
-D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED
+D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led
 -I
-D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\USB_config
+D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\USB_config
 -I
-D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\F5xx_F6xx_Core_Lib
+D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\F5xx_F6xx_Core_Lib
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

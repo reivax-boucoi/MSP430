@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V6.5.1.95                                          #
 #                                                                              #
-#           Link time     =  16/Jun/2018  18:35:07                             #
+#           Link time     =  13/Jun/2020  22:08:51                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  D:\Documents\MSP430\project\IAR\5510\MSP-5510STK_ #
 #                            Blinking_LED\Debug\List\MSP-5510STK_Blinking_LED. #
@@ -11,7 +11,7 @@
 #                            Blinking_LED\Debug\Exe\MSP-5510STK_Blinking_LED.t #
 #                            xt                                                #
 #                            Format: msp430_txt                                #
-#           Command line  =  -f C:\Users\User\AppData\Local\Temp\EW5EB7.tmp    #
+#           Command line  =  -f C:\Users\User\AppData\Local\Temp\EW7F42.tmp    #
 #                            (-P(CONST)MYDRIVE=0xD000-0xF000                   #
 #                            D:\Documents\MSP430\project\IAR\5510\MSP-5510STK_ #
 #                            Blinking_LED\Debug\Obj\lcd.r43                    #
@@ -80,7 +80,7 @@
                 *                                      *
                 ****************************************
 
-       Program entry at :           801A  Relocatable, from module : ?cstart
+       Program entry at :           8008  Relocatable, from module : ?cstart
 
 
 
@@ -192,46 +192,46 @@ DATA16_Z
            flag_register           2402 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 84CA - 84E7 (0x1e bytes), align: 1
+  Relative segment, address: 84B8 - 84D5 (0x1e bytes), align: 1
   Segment part 6.             Intra module refs:   LCD_Init
                                                    LCD_SEND_CHR
                                                    LCD_SEND_CMD
                                                    LCD_Send_Long_STR
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Delay                   84CA 
+           Delay                   84B8 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8370 - 8415 (0xa6 bytes), align: 1
+  Relative segment, address: 835E - 8403 (0xa6 bytes), align: 1
   Segment part 7.             Intra module refs:   LCD_Send_Long_STR
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LCD_SEND_CHR            8370 
+           LCD_SEND_CHR            835E 
                calls direct
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 82C0 - 836F (0xb0 bytes), align: 1
+  Relative segment, address: 82AE - 835D (0xb0 bytes), align: 1
   Segment part 8.             Intra module refs:   LCD_Init
                                                    LCD_Send_Long_STR
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LCD_SEND_CMD            82C0 
+           LCD_SEND_CMD            82AE 
                calls direct
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 81A6 - 82BF (0x11a bytes), align: 1
+  Relative segment, address: 8194 - 82AD (0x11a bytes), align: 1
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LCD_Send_Long_STR       81A6            main (main)
+           LCD_Send_Long_STR       8194            main (main)
                calls direct
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 804A - 81A5 (0x15c bytes), align: 1
+  Relative segment, address: 8038 - 8193 (0x15c bytes), align: 1
   Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           LCD_Init                804A            main (main)
+           LCD_Init                8038            main (main)
                calls direct
 
     *************************************************************************
@@ -363,33 +363,33 @@ DATA16_I
            but2_flag               2401 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8416 - 848D (0x78 bytes), align: 1
+  Relative segment, address: 8404 - 847B (0x78 bytes), align: 1
   Segment part 23.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           main                    8416            Segment part 27 (?cstart)
+           main                    8404            Segment part 27 (?cstart)
                calls direct
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 848E - 84C9 (0x3c bytes), align: 1
+  Relative segment, address: 847C - 84B7 (0x3c bytes), align: 1
   Segment part 22.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Init_Ports              848E 
+           Init_Ports              847C 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 84E8 - 84FB (0x14 bytes), align: 1
+  Relative segment, address: 84D6 - 84E9 (0x14 bytes), align: 1
   Segment part 21.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           Init_Timer1             84E8 
+           Init_Timer1             84D6 
     -------------------------------------------------------------------------
 ISR_CODE
-  Relative segment, address: 8042 - 8049 (0x8 bytes), align: 1
+  Relative segment, address: 8030 - 8037 (0x8 bytes), align: 1
   Segment part 24.            Intra module refs:   TIMER1_A0_ISR::??INTVEC 98
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           TIMER1_A0_ISR           8042 
+           TIMER1_A0_ISR           8030 
                interrupt function
     -------------------------------------------------------------------------
 INTVEC
@@ -401,15 +401,15 @@ INTVEC
                                    FFE2 
     -------------------------------------------------------------------------
 DATA16_ID
-  Relative segment, address: 8018 - 8018 (0x1 bytes), align: 0
+  Relative segment, address: 8006 - 8006 (0x1 bytes), align: 0
   Segment part 18.            Intra module refs:   but1_flag
     -------------------------------------------------------------------------
 DATA16_ID
-  Relative segment, address: 8019 - 8019 (0x1 bytes), align: 0
+  Relative segment, address: 8007 - 8007 (0x1 bytes), align: 0
   Segment part 20.            Intra module refs:   but2_flag
     -------------------------------------------------------------------------
 DATA16_C
-  Relative segment, address: 8000 - 8017 (0x18 bytes), align: 0
+  Relative segment, address: 8000 - 8004 (0x5 bytes), align: 0
   Segment part 16.            Intra module refs:   main
 
     *************************************************************************
@@ -420,14 +420,14 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 852A, align: 1
+  Relative segment, address: 8518, align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _exit                   852A            exit (?exit)
+           _exit                   8518            exit (?exit)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 852A - 852D (0x4 bytes), align: 1
+  Relative segment, address: 8518 - 851B (0x4 bytes), align: 1
   Segment part 6.             Intra module refs:   _exit
 
     -------------------------------------------------------------------------
@@ -448,7 +448,7 @@ DATA16_I
   Segment part 3.
     -------------------------------------------------------------------------
 DATA16_ID
-  Relative segment, address: 8018, align: 1
+  Relative segment, address: 8006, align: 1
   Segment part 4.
     -------------------------------------------------------------------------
 CODE_I
@@ -456,7 +456,7 @@ CODE_I
   Segment part 5.
     -------------------------------------------------------------------------
 CODE_ID
-  Relative segment, address: 804A, align: 1
+  Relative segment, address: 8038, align: 1
   Segment part 6.
     -------------------------------------------------------------------------
 DATA20_Z
@@ -468,11 +468,11 @@ DATA20_I
   Segment part 8.
     -------------------------------------------------------------------------
 DATA20_ID
-  Relative segment, address: 801A, align: 1
+  Relative segment, address: 8008, align: 1
   Segment part 9.
     -------------------------------------------------------------------------
 DATA20_C
-  Relative segment, address: 801A, align: 1
+  Relative segment, address: 8008, align: 1
   Segment part 10.
     -------------------------------------------------------------------------
 DATA20_N
@@ -480,39 +480,39 @@ DATA20_N
   Segment part 12.
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: 801A - 801D (0x4 bytes), align: 1
+  Relative segment, address: 8008 - 800B (0x4 bytes), align: 1
   Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __program_start         801A            ?reset_vector (?reset_vector)
+           __program_start         8008            ?reset_vector (?reset_vector)
                                                    Absolute parts (?ABS_ENTRY_MOD)
-           ?cstart_begin           801A 
+           ?cstart_begin           8008 
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: 801E - 8029 (0xc bytes), align: 1
+  Relative segment, address: 800C - 8017 (0xc bytes), align: 1
   Segment part 20.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstart_init_zero       801E            flag_register (lcd)
+           ?cstart_init_zero       800C            flag_register (lcd)
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: 802A - 8039 (0x10 bytes), align: 1
+  Relative segment, address: 8018 - 8027 (0x10 bytes), align: 1
   Segment part 21.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstart_init_copy       802A            but1_flag (main)
+           ?cstart_init_copy       8018            but1_flag (main)
                                                    but2_flag (main)
     -------------------------------------------------------------------------
 CSTART
-  Relative segment, address: 803A - 8041 (0x8 bytes), align: 1
+  Relative segment, address: 8028 - 802F (0x8 bytes), align: 1
   Segment part 27.            Intra module refs:   Segment part 15
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ?cstart_call_main       803A 
-           ?cstart_end             8042 
+           ?cstart_call_main       8028 
+           ?cstart_end             8030 
     -------------------------------------------------------------------------
 CODE_ID
-  Relative segment, address: 804A, align: 1
+  Relative segment, address: 8038, align: 1
   Segment part 28.            Intra module refs:   Segment part 5
 
     -------------------------------------------------------------------------
@@ -533,11 +533,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 851E - 8521 (0x4 bytes), align: 1
+  Relative segment, address: 850C - 850F (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exit                    851E            Segment part 27 (?cstart)
+           exit                    850C            Segment part 27 (?cstart)
                calls direct
 
     -------------------------------------------------------------------------
@@ -546,11 +546,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 84FC - 850D (0x12 bytes), align: 1
+  Relative segment, address: 84EA - 84FB (0x12 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           memcpy                  84FC            __data16_memcpy (?memzero)
+           memcpy                  84EA            __data16_memcpy (?memzero)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?memzero
@@ -558,18 +558,18 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 850E - 851D (0x10 bytes), align: 1
+  Relative segment, address: 84FC - 850B (0x10 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __data16_memzero        850E            ?cstart_init_zero (?cstart)
+           __data16_memzero        84FC            ?cstart_init_zero (?cstart)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8522 - 8525 (0x4 bytes), align: 1
+  Relative segment, address: 8510 - 8513 (0x4 bytes), align: 1
   Segment part 3.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __data16_memcpy         8522            ?cstart_init_copy (?cstart)
+           __data16_memcpy         8510            ?cstart_init_copy (?cstart)
                calls direct
 
     -------------------------------------------------------------------------
@@ -578,11 +578,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8526 - 8529 (0x4 bytes), align: 1
+  Relative segment, address: 8514 - 8517 (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  8526            Segment part 6 (?_exit)
+           __exit                  8514            Segment part 6 (?_exit)
                                                    _exit (?_exit)
 
 
@@ -611,14 +611,14 @@ DATA20_Z                                  2404                       rel    1
 DATA20_N                                  2404                       rel    1
 CODE_I                                    2404                       rel    1
 CSTACK                                 3270 - 33FF             190   rel    1
-DATA16_C                               8000 - 8017              18   rel    0
-DATA16_ID                              8018 - 8019               2   rel    1
-DATA20_ID                                 801A                       rel    1
-DATA20_C                                  801A                       rel    1
-CSTART                                 801A - 8041              28   rel    1
-ISR_CODE                               8042 - 8049               8   rel    1
-CODE_ID                                   804A                       rel    1
-<CODE> 1                               804A - 852D             4E4   rel    1
+DATA16_C                               8000 - 8004               5   rel    0
+DATA16_ID                              8006 - 8007               2   rel    1
+DATA20_ID                                 8008                       rel    1
+DATA20_C                                  8008                       rel    1
+CSTART                                 8008 - 802F              28   rel    1
+ISR_CODE                               8030 - 8037               8   rel    1
+CODE_ID                                   8038                       rel    1
+<CODE> 1                               8038 - 851B             4E4   rel    1
 INTVEC                                 FF80 - FFE3              64   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 
@@ -630,7 +630,7 @@ RESET                                  FFFE - FFFF               2   rel    1
 
  1 402 bytes of CODE  memory
    403 bytes of DATA  memory (+ 26 absolute )
-    26 bytes of CONST memory
+     7 bytes of CONST memory
 
 Errors: none
 Warnings: none

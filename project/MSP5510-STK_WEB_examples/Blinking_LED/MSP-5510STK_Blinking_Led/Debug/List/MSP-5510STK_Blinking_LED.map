@@ -2,28 +2,28 @@
 #                                                                              #
 #      IAR Universal Linker V6.5.1.95                                          #
 #                                                                              #
-#           Link time     =  11/Jun/2018  09:32:58                             #
+#           Link time     =  13/Jun/2020  17:53:10                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  D:\Documents\MSP430\project\MSP5510-STK_WEB_examp #
-#                            les\Blinking_LED\MSP-5510STK_Blinking_LED\Debug\L #
-#                            ist\MSP-5510STK_Blinking_LED.map                  #
+#                            les\Blinking_LED\MSP-5510STK_Blinking_Led\Debug\L #
+#                            ist\MSP-5510STK_Blinking_Led.map                  #
 #           Output file 1 =  D:\Documents\MSP430\project\MSP5510-STK_WEB_examp #
-#                            les\Blinking_LED\MSP-5510STK_Blinking_LED\Debug\E #
-#                            xe\MSP-5510STK_Blinking_LED.txt                   #
+#                            les\Blinking_LED\MSP-5510STK_Blinking_Led\Debug\E #
+#                            xe\MSP-5510STK_Blinking_Led.txt                   #
 #                            Format: msp430_txt                                #
-#           Command line  =  -f C:\Users\User\AppData\Local\Temp\EWCFBE.tmp    #
+#           Command line  =  -f C:\Users\User\AppData\Local\Temp\EW6B0A.tmp    #
 #                            (-P(CONST)MYDRIVE=0xD000-0xF000                   #
 #                            D:\Documents\MSP430\project\MSP5510-STK_WEB_examp #
-#                            les\Blinking_LED\MSP-5510STK_Blinking_LED\Debug\O #
+#                            les\Blinking_LED\MSP-5510STK_Blinking_Led\Debug\O #
 #                            bj\main.r43                                       #
 #                            -o                                                #
 #                            D:\Documents\MSP430\project\MSP5510-STK_WEB_examp #
-#                            les\Blinking_LED\MSP-5510STK_Blinking_LED\Debug\E #
-#                            xe\MSP-5510STK_Blinking_LED.txt                   #
+#                            les\Blinking_LED\MSP-5510STK_Blinking_Led\Debug\E #
+#                            xe\MSP-5510STK_Blinking_Led.txt                   #
 #                            -Fmsp430_txt -l                                   #
 #                            D:\Documents\MSP430\project\MSP5510-STK_WEB_examp #
-#                            les\Blinking_LED\MSP-5510STK_Blinking_LED\Debug\L #
-#                            ist\MSP-5510STK_Blinking_LED.map                  #
+#                            les\Blinking_LED\MSP-5510STK_Blinking_Led\Debug\L #
+#                            ist\MSP-5510STK_Blinking_Led.map                  #
 #                            -xms                                              #
 #                            "-IC:\Program Files (x86)\IAR Systems\Embedded Wo #
 #                            rkbench 8.0\430\LIB\"                             #
@@ -135,7 +135,7 @@ Absolute parts
            __iar_HWMUL             04C0 
     *************************************************************************
 
-  FILE NAME : D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\Debug\Obj\main.r43
+  FILE NAME : D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\Debug\Obj\main.r43
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE

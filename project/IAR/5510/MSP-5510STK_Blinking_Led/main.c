@@ -32,7 +32,7 @@ void main (void){
         if (BUT1 == PRESSED && but1_flag == RELEASED){          
           but1_flag = PRESSED;    
           TA1CCR0 = 6000;
-          LCD_Send_Long_STR(1,10000,"This is a long sentence");
+          LCD_Send_Long_STR(1,10000,"Test");
         }
         if (BUT1 == RELEASED && but1_flag == PRESSED){
           but1_flag = RELEASED;          

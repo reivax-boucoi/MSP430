@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\settings\MSP-5510STK_Blinking_LED.Debug.general.xcl" --backend -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\settings\MSP-5510STK_Blinking_LED.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\settings\MSP-5510STK_Blinking_Led.Debug.general.xcl" --backend -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\settings\MSP-5510STK_Blinking_Led.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\settings\MSP-5510STK_Blinking_LED.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_LED\settings\MSP-5510STK_Blinking_LED.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\settings\MSP-5510STK_Blinking_Led.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Documents\MSP430\project\MSP5510-STK_WEB_examples\Blinking_LED\MSP-5510STK_Blinking_Led\settings\MSP-5510STK_Blinking_Led.Debug.driver.xcl" 
 
 @echo off 
 :end

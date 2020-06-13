@@ -5,27 +5,27 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\config\linker\lnk430f5510.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_LED.d43</file>
-            <file>$PROJ_DIR$\Debug\List\MSP-5510STK_Blinking_LED.map</file>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
             <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MSP-5510STK_Blinking_LED.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f5510.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MSP-5510STK_Blinking_Led.pbd</file>
             <file>$TOOLKIT_DIR$\inc\msp430f5510.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_LED.txt</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\List\MSP-5510STK_Blinking_Led.map</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+            <file>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_LED.d43</file>
+            <file>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_Led.txt</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 13 7</file>
+                    <file> 13 10</file>
                 </tool>
             </outputs>
         </file>
@@ -34,25 +34,25 @@
             <outputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 10</file>
+                    <file> 9</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 1</file>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 5</file>
+                    <file> 4</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 12 11 8</file>
+                    <file> 6 8 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 8 11 12</file>
+                    <file> 2 8 6</file>
                 </tool>
             </inputs>
         </file>
@@ -61,22 +61,22 @@
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 0 2 10 3</file>
+                    <file> 3 1 9 11</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_LED.txt</name>
+            <name>$PROJ_DIR$\Debug\Exe\MSP-5510STK_Blinking_Led.txt</name>
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 7</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 0 2 10 3</file>
+                    <file> 3 1 9 11</file>
                 </tool>
             </inputs>
         </file>

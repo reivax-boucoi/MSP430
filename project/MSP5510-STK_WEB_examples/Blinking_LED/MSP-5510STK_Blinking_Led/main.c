@@ -62,7 +62,7 @@ void main (void)
         if (BUT2 == PRESSED && but2_flag == RELEASED)  //Check if BUT2 is pressed
         {          
           but2_flag = PRESSED;                             
-          TA1CCR0 = 60000;
+          TA1CCR0 = 10000;
         }
         if (BUT2 == RELEASED && but2_flag == PRESSED)  //Check if BUT2 is released
         {
