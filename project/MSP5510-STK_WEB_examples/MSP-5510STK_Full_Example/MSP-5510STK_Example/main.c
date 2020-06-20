@@ -139,9 +139,9 @@ void main (void)
   LCD_Init();
   
   Delay(10000);
-  //    LCD_Send_Long_STR(1,200000,"MSP430-5510STK DEMO program!");       //show long strings 
-  //    LCD_Clear();  
-  LCD_Send_STR(1, "FLO&Xav"); 
+    LCD_Send_Long_STR(1,200000,"MSP430-5510STK DEMO program!");       //show long strings 
+    LCD_Clear();  
+  LCD_Send_STR(1, "Test"); 
   
   
   //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++      
